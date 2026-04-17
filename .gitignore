@@ -1,0 +1,8 @@
+# Credenciais dbt - nunca commitar!
+00_setup_dbt*
+dbt_gold/profiles.yml
+
+#Arquivos temporários do dbt
+dbt_gold/target/
+dbt_gold/dbt_packages/
+dbt_gold/logs/

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: silver
+    catalog: lakehouse_portfolio
+    schema: silver
+    tables:
+      - name: breweries
+        description: "Tabela Silver com cervejarias limpas e deduplicadas vindas da API"

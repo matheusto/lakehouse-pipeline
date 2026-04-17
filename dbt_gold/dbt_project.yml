@@ -1,0 +1,14 @@
+name: 'dbt_gold'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_gold'
+
+model-paths: ["models"]
+
+models:
+  dbt_gold:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
